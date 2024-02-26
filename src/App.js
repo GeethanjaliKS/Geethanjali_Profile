@@ -9,6 +9,8 @@ import Contact from './Components/Contact';
 import Home from './Components/Home';
 import Project from './Components/Project';
 import Certificate from './Components/Certificate';
+import Skill from './Components/Skill';
+import Experience from './Components/Experience';
 
 
 
@@ -24,6 +26,8 @@ function App() {
         <Route path="resume" element={<Resume />} />
         <Route path="contact" element={<Contact />} />
         <Route path="Certificate" element={<Certificate/>} />
+        <Route path="skill" element={<Skill/>} />
+        <Route path="exp" element={<Experience/>} />
       </Routes>
     </BrowserRouter>
   </>

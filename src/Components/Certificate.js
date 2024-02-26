@@ -5,15 +5,15 @@ import '../Style.css'; // Import your CSS file for styling
 
 function Certificate() {
   return (
-    <div className='bg-black'>
+    <div className='bg-black border-b border-white '>
     <div className="snipcss-Z6zk9">
-  <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+  <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4 ">
     {/* <p className="text-sm text-designColor tracking-[4px]">
       2022 - 2023
     </p> */}
-    <h2 className="text-4xl md:text-4xl font-bold pl-8 text-white font-parameter">
-      Certificates......
-    </h2>
+   <h1 className="text-4xl md:text-5xl text-white font-bold capitalize text-center">
+        Certificates
+      </h1>
   </div>
   <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 p-8">
     <div className="w-full h-1/3 group flex">
@@ -26,10 +26,10 @@ function Certificate() {
       <div className="w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg p-4 lgl:px-10 flex flex-col justify-center gap-6 lgl:gap-10 shadow-shadowOne">
         <div className="flex flex-col lgl:flex-row justify-between gap-4 lgl:gap-0 lgl:items-center">
           <div>
-            <h3 className="text-xl md:text-2xl font-semibold group-hover:text-white duration-300">
+            <h3 className="text-xl md:text-2xl font-semibold text-white ">
               React 18
             </h3>
-            <p className="text-sm mt-2 text-gray-400 group-hover:text-white duration-300">
+            <p className="text-sm mt-2 text-gray-400 text-white ">
               Codedamn - Dec-2022
             </p>
           </div>
@@ -41,7 +41,7 @@ function Certificate() {
             </a>
           </div>
         </div>
-        <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
+        <p className="text-sm md:text-base font-medium text-white">
           Learnt react and how to develop a dynamic web application from scratch !
         </p>
       </div>
@@ -56,10 +56,10 @@ function Certificate() {
       <div className="w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg p-4 lgl:px-10 flex flex-col justify-center gap-6 lgl:gap-10 shadow-shadowOne">
         <div className="flex flex-col lgl:flex-row justify-between gap-4 lgl:gap-0 lgl:items-center">
           <div>
-            <h3 className="text-xl md:text-2xl font-semibold group-hover:text-white duration-300">
+            <h3 className="text-xl md:text-2xl font-semibold text-white">
               Learn MongoDb and Node JS
             </h3>
-            <p className="text-sm mt-2 text-gray-400 group-hover:text-white duration-300">
+            <p className="text-sm mt-2 text-gray-400 text-white">
               Codedamn - Nov-2022
             </p>
           </div>
@@ -71,7 +71,7 @@ function Certificate() {
             </a>
           </div>
         </div>
-        <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
+        <p className="text-sm md:text-base font-medium text-white">
           I have learnt how to write queries in mongodb and using mongoose as the ORM for mongodb in Node JS.
         </p>
       </div>
@@ -86,10 +86,10 @@ function Certificate() {
       <div className="w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg p-4 lgl:px-10 flex flex-col justify-center gap-6 lgl:gap-10 shadow-shadowOne">
         <div className="flex flex-col lgl:flex-row justify-between gap-4 lgl:gap-0 lgl:items-center">
           <div>
-            <h3 className="text-xl md:text-2xl font-semibold group-hover:text-white duration-300">
+            <h3 className="text-xl md:text-2xl font-semibold text-white">
               Tailwind CSS 3
             </h3>
-            <p className="text-sm mt-2 text-gray-400 group-hover:text-white duration-300">
+            <p className="text-sm mt-2 text-gray-400 text-white">
               Codedamn - Nov-2022
             </p>
           </div>
@@ -101,7 +101,7 @@ function Certificate() {
             </a>
           </div>
         </div>
-        <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
+        <p className="text-sm md:text-base font-medium text-white">
           Learnt how to build the components using Tailwind CSS and working with React + Tailwind CSS.
         </p>
       </div>
